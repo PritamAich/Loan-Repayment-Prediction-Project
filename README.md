@@ -59,7 +59,7 @@ The "loan_status" column contains our label or it is the dependent variable(pred
     **To know more about Stratified K fold, refer to [this](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html#:~:text=Stratified%20K%2DFolds%20cross%2Dvalidator,Parameters%20n_splitsint%2C%20default%3D5) documentation.**
     
 2. Then inputs from all three data sets were sclaled using Standard Scaler.
-4. Built a basic Artificial Neural Network(ANN) with % hidden layers. Used Softmax activation function for the output layer. Performed Hyperparameter tuning as well.
+4. Built a basic Artificial Neural Network(ANN) with 2 hidden layers. Used Softmax activation function for the output layer. Performed Hyperparameter tuning as well.
 
         model = Sequential()
 
